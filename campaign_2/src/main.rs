@@ -5,9 +5,9 @@ struct Userdetails {
 }
 
 fn main() {
-    let user1 = Userdetails {
+    let user = Userdetails {
         firstname : String::from("Saksham"),
         lastname : String::from("Gurbhele")
     };
-    println!("My full name is {} {}", user1.firstname, user1.lastname);
+    println!("My full name is {} {}", user.firstname, user.lastname);
 }
